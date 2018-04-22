@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <style>
+        body{
+            width:100vw;
+            height:100vh;
+            margin:0px;
+        }
+        .boy{
+            width:400px;
+            height:400px;
+            background:url(images/slider01.jpg) center center no-repeat ;
+            background-size:cover;
+            position:absolute;
+            top:100px;
+            left:300px;
+            transition:all 1s linear;
+            overflow:hidden;
+            border-radius:100%;
+            box-shadow:0px 0px 20px rgb(0, 0, 0,.6);
+
+        }
+       .boy:hover{
+           transform: skew(180deg)
+       }
+       @keyframes pirran{
+           0%{
+               top:0px;
+               left:0px;
+           }
+           25% {
+            top: 0px;
+            left: calc(100% - 40px);
+        }
+        50% {
+            top: calc(100% - 40px);
+            left: calc(100% - 40px);
+        }
+        75% {
+            top: calc(100% - 40px);
+            left: 0px;
+        }
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+       }
+      .square{
+          width:40px;
+          height:40px;
+          position:absolute;
+          top:0px;
+          left:0px;
+          background:blue;
+          /*animation: pirran 10s infinite linear;*/
+      }
+      @keyframes solarSystem{
+          from{
+              transform:rotate(0deg)
+          }
+          to{
+              transform:rotate(360deg)
+          }
+      }
+       .solar{
+           width:700px;
+           height:700px;
+           position:absolute;
+           top:200px;
+           left:600px;
+          
+           transition:all .5s linear;
+           animation:solarSystem 4s infinite linear;
+
+
+       }
+       
+       .earth{
+           width:30px;
+           height:30px;
+           position:absolute;
+           left:0px;
+           top:0px;
+           background:green;
+           border-radius:100%;
+       }
+        .sun {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 300px;
+            top: 300px;
+            background: orange;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="boy">
+        
+    </div>-->
+
+    <!--<div class="square">
+
+    </div>-->
+    <div class="solar">
+        <div class="sun"></div>
+        <div class="earth">
+            <div class="moon"></div>
+        </div>
+    </div>
+</body>
+</html>
