@@ -1,0 +1,109 @@
+#navbar{
+    background:#fff;
+    height: 900px;
+    padding-top: 68px;
+    background-image: url(../images/bg.png);
+    .container{
+       
+        box-sizing: border-box;
+        .logo{
+            margin-top: 10px;
+           width:100px;
+           height: 10px;
+        }
+        h1{
+            color: #fff;
+            text-align: center;
+            margin-top: 279px;
+            font-size: 3.0em;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+        p{
+            color: #fff;
+            text-align: center;
+            margin: 10px;
+            font-size: 3.3em;
+            font-weight: bold;
+            word-spacing: 5px;
+        }
+        h2{
+            text-align: center;
+            color: #fff;
+            font-size: 1.3em;
+            font-weight: 100;
+        }
+        button{
+            text-align: center;
+            width: 210px;
+            background:$colorFirst;
+            margin-left: 542px;
+            height: 61px;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            &:hover{
+                background: darken($colorSecond,15%);
+            }
+        }
+        }   
+        .horizon{
+            position: relative;
+            padding-left: 607px;
+            padding-top: 405px;
+            background: url('../images/svg.png') no-repeat center 213px ;
+            i{
+                cursor: pointer;
+                position: absolute;
+                left: 637px;
+                color: green;
+                font-size: 28px;
+                top: 240px;
+                transform: rotate(180deg);
+                &:hover{
+                    top: 250px;
+                }
+                
+            }
+
+        }
+       .nav{
+        float:right;
+        display: inline-block;
+        margin-bottom: -4px;
+        ul{
+            float:right;
+            margin:0px;
+            padding:0px;
+            li{
+                &:hover{
+                    color: $colorFirst;
+                    text-decoration: underline $colorFirst;
+                    i{
+                        transform: rotate(180deg);
+                    }
+                }
+                line-height:30px;
+                font-family: $mainFont;
+                list-style:none;
+                box-sizing: border-box;
+                display: inline-block;
+                margin-bottom: -4px;
+                text-transform:uppercase;
+                font-weight:bold;
+                font-size:1.2em;
+                margin:0px 17px;
+                cursor:pointer;
+                &:first-child{
+                    color: $colorFirst;
+                }
+                &:first-child:hover{
+                    text-decoration: underline $colorFirst;
+                }
+            }     
+       }
+    }
+}

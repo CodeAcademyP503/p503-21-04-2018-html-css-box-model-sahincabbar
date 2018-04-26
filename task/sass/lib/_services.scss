@@ -1,0 +1,97 @@
+#services{
+    width: 100%;
+    height: 900px;
+    background:rgb(245,245,246);
+    .lg{
+        width: 250px;
+        height: 200px;
+        margin: 40px;
+        margin-left: 31px;
+        display: inline-block;
+        box-sizing: border-box;
+        .log{
+            box-sizing: border-box;
+            i{    color: #42b773;
+                margin-top: 14px;
+                margin-left: 96px;
+                font-size: 63px;
+                text-align: center;
+                box-sizing: border-box;
+                &:hover{
+                    color: $colorSecond;
+                }
+            }
+        }
+        p{
+            float: left;
+            margin-top: -9px;
+            margin-left: 30px;
+            font-size: 15px;
+            color: #9eb6be;
+            text-align: center;
+            font-weight: 500;
+            display: inline-block;
+        }
+        h2{
+            float: left;
+            margin-left: 82px;
+            font-size: 25px;
+            text-align: justify;
+            font-weight: 500;
+            display: inline-block;
+            &:hover{
+                text-decoration: underline $colorFirst;
+                color: $colorFirst;
+            }
+        
+        }
+    }
+    .horizon-3{
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+        height: 100px;
+        i{
+            cursor: pointer;
+            text-align: center;
+            position: relative;
+            right: 93px;
+            top: -17px;
+            color: $colorFirst;
+            transform: rotate(180deg);
+            font-size: 26px;
+            &:hover{
+                top: -7px;
+            }
+        }
+    }
+    .text{
+        h1{
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+    .horizon-2{
+        width: 100%;
+        height: 68px;
+        margin-top: -85px;
+        background: url('../images/add.png') no-repeat center;
+        i{
+            cursor: pointer;
+            margin-top: 24px;
+    margin-left: -575px;
+    font-size: 28px;
+    transform: rotate;
+    transform: rotate(180deg);
+    color: #fff;
+    &:hover{
+        margin-top: 34px;
+    }
+    }    
+    }
+   
+}

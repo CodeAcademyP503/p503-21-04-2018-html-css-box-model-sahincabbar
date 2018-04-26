@@ -1,0 +1,18 @@
+$colorFirst:rgb(66,183,115);
+$colorSecond:rgb(169,220,86);
+$mainFont: 'Open Sans', sans-serif;
+$mainWidth:1297px;
+$mainFont:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+@import "lib/common";
+@import "lib/navbar";
+@import "lib/common";
+@import "lib/mainbar";
+@import "lib/aboutus";
+@import "lib/services";
+@import "lib/gallery";
+@import "lib/contacts";
+@import "lib/foot";
+
+ 

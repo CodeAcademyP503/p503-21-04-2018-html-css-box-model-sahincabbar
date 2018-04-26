@@ -1,0 +1,61 @@
+#aboutus{
+    background: $colorFirst;
+    width: 100%;
+    margin-top: 14px;
+    height: 700px;
+  
+        
+    }
+    .txt{
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        float: left;
+        margin-left: 104px;
+        h3{
+            text-align:center;
+            color: #fff;
+            font-family:$mainFont;
+            font-size: 1.4em;
+            word-spacing: 3px;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline #000;
+                color: #000;
+            }
+        }
+        p{
+            text-align: center;
+            color: #fff;
+            font-family:$mainFont;
+            word-spacing: 2px;
+        }
+    }
+    h1{
+        margin: 0;
+        padding-top: 51px;
+        text-align: center;
+        font-size: 2.4em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .circ{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        margin-left: 99px;
+        margin-top: 48px;
+        display: inline-block;
+        float: left;
+        img{
+            width: 100%;
+        }
+        h2{
+            font-size: 26px;
+            color: #fff;
+        }
+       
+    }

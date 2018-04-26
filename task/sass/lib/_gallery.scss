@@ -1,0 +1,124 @@
+#gallery{
+    width: 100%;
+    height: 500px;
+    h1{
+        margin: 0;
+    padding-top: 51px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    color: #000;
+    }
+    .gl_row{
+        padding-top: 43px;
+    }
+    .foto{
+        width: 180px;
+        height: 142px;
+        float: left;
+        img{
+            width: 100%;
+            height: 140px;
+        }
+    }
+    .big{
+        float: left;
+        margin-top: 0px;
+        width: 399px;
+        img{
+            width: 399px;
+            height: 280px;
+            float: left;
+        }
+    }
+    .same{
+        float: left;
+        width: 180px;
+        height: 140px;
+        img{
+            width: 100%;
+            height: 140px;
+            float: left;
+        }
+    }
+    .same1{
+        float: left;
+        width: 180px;
+        position: relative;
+        left: 579px;
+        height: 141px;
+        top: -142px;
+        img{
+            width: 100%;
+            height: 140px;
+            float: left;
+        }
+    }
+    .foto1{
+        margin-top: -140px;
+        width: 180px;
+        height: 142px;
+        img{
+            width: 100%;
+            height: 142px;
+            position: relative;
+            top: -142px;
+        }
+    }
+    .ft1{
+        width: 180px;
+        height: 142px;
+        float: right;
+        position: relative;
+        top: -144px;
+        left: -1px;
+        img{
+            width: 100%;
+    height: 142px;
+        }
+    }
+    .gl_1{
+        position: relative;
+    top: -144px;
+     .big1{
+        float: right;
+    margin-top: 0px;
+    width: 361px;
+        img{
+            width: 100%;
+            height: 280px;
+        }
+     }
+    }
+    .same2{
+        width: 180px;
+        height: 140px;
+        position: relative;
+        top: 141px;
+        left: 399px;
+        img{
+            width: 100%;
+    height: 140px;
+    position: relative;
+    top: -281px;
+        }
+    }
+    .horizon-4{
+text-align: center;
+margin-left: -61px;
+i{
+    cursor: pointer;
+    font-size: 26px;
+    transform: rotate;
+    transform: rotate(180deg);
+    padding-right: -6px;
+    margin-left: -94px;
+    color: #fff;
+    padding-top: 28px;
+    &:hover{
+        padding-top: 14px;
+    }
+}
+    }
+}
